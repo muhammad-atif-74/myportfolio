@@ -1,0 +1,263 @@
+@import url('https://fonts.googleform-controlapis.com/css2?family=Alata&family=Hind&family=Lato&family=Noto+Nastaliq+Urdu:wght@500&family=Orienta&family=Rubik:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --background-color: #F8F9FA;
+    --primary-color: #2b2936;
+    --primary-color-2: #17161d;
+    --secondary-color: #4b8132;
+    --dark-color-100 : #121618;
+    --white-color: #ffffff;
+    --light-color-50: rgb(141, 138, 138);
+
+    /* --heading-font: 'Lato', sans-serif; */
+    /* --heading-font: 'Rubik', sans-serif; */
+    /* --text-font: 'Hind', sans-serif; */
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    width: 6px;
+    background-color: var(--background-color);
+    border-left: 0 solid var(--background-color);
+    border-right: 0 solid var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    width: 0;
+    /* height: 5px !important; */
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    border-left: 1px solid var(--background-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--primary-color-2);
+}
+
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+body {
+    font-size: 1.25rem;
+    font-family: var(--text-font);
+    color: var(--dark-color-100);
+    font-family: 'Orienta', sans-serif;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+    /* color: var(--secondary-color-2); */
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+p {
+    margin-bottom: 8px;
+    font-family: var(--text-font);
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.heading-para{
+    font-size: 1.5rem;
+}
+
+.text-big{
+    font-size: 3.5rem;
+}
+.text-sm{
+    font-size: 1rem;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-narrow {
+    padding: 0 4rem;
+}
+
+.text-narrow-2 {
+    padding: 0 12rem;
+}
+
+.text-white {
+    color: var(--white-color);
+}
+
+.text-light {
+    color: var(--light-color-50);
+}
+
+.text-primary {
+    color: var(--primary-color);
+}
+.text-secondary {
+    color: var(--secondary-color);
+}
+
+.text-dark {
+    color: var(--secondary-color-2);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+.text-italic {
+    font-style: italic;
+}
+
+.text-capital {
+    text-transform: uppercase;
+}
+
+.bg-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-light {
+    background-color: var(--background-color)
+}
+
+.m-bottom {
+    margin-bottom: 20px;
+}
+
+.m-bottom-2 {
+    margin-bottom: 40px;
+}
+
+.ms-1{
+    margin: 0 10px;
+}
+.m-top {
+    margin-top: 10px;
+}
+
+.m-top-2 {
+    margin-top: 20px;
+}
+
+.m-left {
+    margin-left: 15px;
+}
+.m-left-2 {
+    margin-left: 25px;
+}
+
+.text-shadow {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+section {
+    padding: 4rem 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(85%, 70rem);
+}
+
+.container-narrow {
+    width: min(65%, 100rem);
+    /* border: solid teal; */
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fd-col{
+    flex-direction: column;
+}
+.split {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+}
+.split-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.half{
+    width: 50%;
+}
+
+/* Buttons  */
+button{
+    border: none;
+    cursor: pointer;
+}
+.btn{
+    color: var(--white-color);
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: black;
+    padding: 14px 34px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    margin: 0 3px;
+}
+.btn-primary{
+    background-color: var(--primary-color);
+}
+.btn-primary:hover{
+    box-shadow: 1px 1px 3px var(--primary-color);
+}
+.btn-secondary{
+    background-color: var(--secondary-color)
+}
+.btn-secondary:hover{
+    box-shadow: 1px 1px 5px var(--secondary-color);
+}
+
+.text-dec-none{
+    text-decoration: none;
+}

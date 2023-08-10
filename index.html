@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- --Favicon--  -->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <!-- --Linking the custom CSS-- -->
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <!-- --font awesome link-- -->
+    <script src="https://kit.fontawesome.com/08bfb080f0.js" crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body>
+    <div class="loader ">
+        <lottie-player src="https://assets7.lottiefiles.com/private_files/lf30_l8csvun7.json" background="transparent"
+            speed="1" style="width: 300px; height: 300px;" loop autoplay></lottie-player>
+        <p>Loading.. Please Wait</p>
+    </div>
+    <main class="wrapper hide">
+        <!-- uparrow  -->
+        <a href="#navbar">
+            <i class="fa-solid fa-angle-up upArrow" id="upArrow"></i>
+        </a>
+        <i class="fa-solid fa-bars bars" id="bars"></i>
+        <i class="fa-solid fa-xmark xmark" id="xmark"></i>
+
+
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <div class="nav-items">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo" width="50">
+                    </a>
+                    <ul class="nav hide">
+                        <li class="active navLink">Home</li>
+                        <li><a href="#about" class="navLink">About</a> </li>
+                        <li><a href="#services" class="navLink">Services</a></li>
+                        <li><a href="#resume" class="navLink">Resume</a></li>
+                        <li><a href="#portfolio" class="navLink">Portflio</a></li>
+                        <li><a href="#contact" class="navLink">Contact</a></li>
+                    </ul>
+                    <a href="" class="extra"></a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="container">
+                <div class="content profile">
+                    <div class="hero-image profile">
+                        <img src="/images/atif1.jpg" alt="My Image">
+                    </div>
+                    <div class="intro">
+                        <h2 class="text-white m-top profile">MUHAMMAD ATIF</h2>
+                        <p class="text-white text-center hero-para profile">Website Developer</p>
+                        <div class="icons profile">
+                            <a href="#">
+                                <i class="fa-brands fa-facebook ms-1"></i>
+                            </a>
+                            <a href="https://github.com/atifKhan974">
+                                <i class="fa-brands fa-github ms-1"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhammad-atif-25ab2621b/">
+                                <i class="fa-brands fa-linkedin ms-1"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-solid fa-globe ms-1"></i>
+                            </a>
+                        </div>
+                        <i class="fa-solid fa-down-long text-white m-top-2 sc-down profile"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about aboutAnimation" id="about">
+            <img class="dots" src=" https://preview.colorlib.com/theme/orbit/images/dots.png.webp"
+                alt="background image">
+            <div class="container aboutAnimation">
+                <div class="split">
+                    <div class="half">
+                        <img src="images/me.jpg" alt="about image" class="aboutImage">
+                    </div>
+                    <div class="half">
+                        <h2 class="m-bottom">About Me</h2>
+                        <p class="text-light">I am a positive, enthusiastic and competent Website Developer who, has built up a diverse range of skills, qualities and attributes that guarantee I will perform highly in this field.</p>
+                        <br>
+                        <p class="text-light"> I have extensive experience working with both frontend and backend developments of website applications. I also got best knowledge of database connectivity with websites. I have a good experience working with both alone and as part of team on often challenging web development projects.</p>
+
+                        <!-- Skills   -->
+                        <div class="skill-container">
+                            <div class="skill">
+                                <h5 class="skill-title">HTML5</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 82%;">
+                                        <span style="left: 79%;">82%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <h5 class="skill-title">CSS3</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 82%;">
+                                        <span style="left: 79%;">82%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <h5 class="skill-title">Javascript</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 75%;">
+                                        <span style="left: 72%;">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <h5 class="skill-title">PHP</h5>
+                                <div class="progress">
+                                    <div class="progress-bar" style="width: 72%;">
+                                        <span style="left: 69%;">72%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- buttons  -->
+                        <form action="" class="form">
+                            <a href="#contact" class="btn btn-secondary">HIRE ME</a>
+                            <a href="images/My CV pdf.pdf" download="Resume: Muhammad Atif" class="btn btn-primary">DOWNLOAD CV</a>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- services   -->
+        <section class="services " id="services">
+            <div class="container ">
+                <h2 class="text-center m-bottom-2">Services</h2>
+                <div class="split">
+                    <div class="col flex fd-col servicesAnimation">
+                        <i class="fa-solid fa-laptop"></i>
+                        <h4 class="text-center m-bottom">Responsive Frontend Development</h4>
+                        <p class="text-center text-light">I like to built things from scratch, and enjoy bringing ideas to life in the browser with 100% responsiveness.</p>
+                    </div>
+                    <div class="col flex fd-col servicesAnimation">
+                        <i class="fa-solid fa-globe"></i>
+                        <h4 class="text-center m-bottom">Backend Development</h4>
+                        <p class="text-center text-light">Maintain and integrate the design with database and backend programming using php, laravel and node.</p>
+                    </div>
+                    <div class="col flex fd-col servicesAnimation">
+                        <i class="fa-solid fa-database"></i>
+                        <h4 class="text-center m-bottom">Database Management</h4>
+                        <p class="text-center text-light">To keep your information safe, I use mysql and firebase to store the web data.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- resume  -->
+        <section class="resume" id="resume">
+            <div class="container resumeAnimation">
+                <h2 class="text-center m-bottom-2">My Resume</h2>
+                <div class="split">
+                    <!-- col no 1 -->
+                    <div class="col imageCol flex">
+                        <img src="./images/me2.jpg" alt="">
+                    </div>
+                    <!-- col no 2  -->
+                    <div class="col textCol">
+                        <h4 class="m-bottom text-secondary">Work Experience</h4>
+                        <!-- resume info box  -->
+                        <div class="resume-info m-bottom">
+                            <div class="title split space-between">
+                                <div class="col">
+                                    <h5>Full Stack Website Developer</h5>
+                                </div>
+                                <div class="col">
+                                    <p class="interval">FullTime</p>
+                                </div>
+                            </div>
+                            <div class="split space-between">
+                                <div class="col">
+                                    <div class="split md-column" style="justify-content: start;">
+                                        <div class="col">
+                                            <i class="fa-solid fa-building"></i>
+                                            <span class="institute">Infusible Coders.</span>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <span class="institute">Kohat, KPK</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="institute">August 2022 - Present</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- resume info box  -->
+                        <div class="resume-info m-bottom">
+                            <div class="title split space-between">
+                                <div class="col">
+                                    <h5>Graphic Designer</h5>
+                                </div>
+                                <div class="col">
+                                    <p class="interval">parttime</p>
+                                </div>
+                            </div>
+                            <div class="split space-between">
+                                <div class="col">
+                                    <div class="split md-column" style="justify-content: start;">
+                                        <div class="col">
+                                            <i class="fa-solid fa-building "></i>
+                                            <span class="institute">Millat Printing Press.</span>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-location-dot "></i>
+                                            <span class="institute">Kohat, KPK</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <i class="fa-solid fa-calendar-days "></i>
+                                    <span class="institute">July 2018 - November 2021</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="m-bottom text-secondary">Education</h4>
+                        <!-- resume info box  -->
+                        <div class="resume-info m-bottom">
+                            <div class="title split space-between">
+                                <div class="col">
+                                    <h5>Graduation in Software Engineering</h5>
+                                </div>
+                                <div class="col">
+                                    <p class="interval">FullTime</p>
+                                </div>
+                            </div>
+                            <div class="split space-between">
+                                <div class="col">
+                                    <div class="split md-column" style="justify-content: start;">
+                                        <div class="col">
+                                            <i class="fa-solid fa-building"></i>
+                                            <span class="institute">Kohat University</span>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <span class="institute">Kohat, KPK</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="institute">October 2020 - Present</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- resume info box  -->
+                        <div class="resume-info m-bottom">
+                            <div class="title split space-between">
+                                <div class="col">
+                                    <h5>FSc Pre-Engineering</h5>
+                                </div>
+                                <div class="col">
+                                    <p class="interval">FullTime</p>
+                                </div>
+                            </div>
+                            <div class="split space-between">
+                                <div class="col">
+                                    <div class="split md-column" style="justify-content: start;">
+                                        <div class="col">
+                                            <i class="fa-solid fa-building"></i>
+                                            <span class="institute">Govt. Postgraduate College</span>
+                                        </div>
+                                        <div class="col">
+                                            <i class="fa-solid fa-location-dot"></i>
+                                            <span class="institute">Kohat, KPK</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                    <span class="institute">September 2018 - June 2020</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- clients  -->
+        <section class="clients bg-light" id="clients">
+            <div class="container">
+                <h2 class="text-center m-bottom-2">Happy Clients</h2>
+                <div class="grid ">
+                    <div class="grid-item split-row m-bottom-2 clientAnimation">
+                        <div class="col">
+                            <div class="client-img flex">
+                                <img src="./images/waqar.jpg" alt="client-img" class="client-image">
+                            </div>
+                        </div>
+                        <div class="review col box-shadow">
+                            <p class="text-light">"Awesome, built by dream. I got a great experience working with Atif, He is a compatible guy to work with."</p>
+                        </div>
+                    </div>
+                    <div class="grid-item split-row m-bottom-2 clientAnimation">
+                        <div class="col">
+                            <div class="client-img flex">
+                                <img src="./images/iftikhar.jpg.webp" alt="client-img" class="client-image">
+                            </div>
+                        </div>
+                        <div class="review col box-shadow">
+                            <p class="text-light">"Best buisness website I have got. Work ontime and as promised and a great responsiveness with mobile view is well. Recomment Atif bcz he is professional"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portflio  -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <h2 class="text-center m-bottom-2 imgAnimation">Portflio</h2>
+                <div class="portfolio-images">
+                    <img src="./images/mp.png" height="230" alt="placeholder image" class="imgAnimation" onclick="fullView(this.src)">
+                    <img src="./images/recipe.png" height="230" alt="placeholder image" class="imgAnimation" onclick="fullView(this.src)">
+                    <img src="./images/admin1.png" height="230" alt="placeholder image" class="imgAnimation" onclick="fullView(this.src)">
+                    <img src="./images/companyptf2.png" height="230" alt="placeholder image" class="imgAnimation" onclick="fullView(this.src)">
+                    <img src="./images/game.png" height="230" alt="placeholder image" class="imgAnimation" onclick="fullView(this.src)">
+                    <img src="./images/admin2.png" height="230" alt="placeholder image" class="imgAnimation" onclick="fullView(this.src)">
+                </div>
+                <div id="fullScreenView">
+                    <img id="fullScreen">
+                    <i class="fa-solid fa-xmark close-fs" id="close-fs" onclick="closeFullView()"></i>
+                </div>
+        </section>
+
+        <!-- contact  -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="text-center m-bottom-2">Contact Me</h2>
+                <div class="split">
+                    <div class="col">
+                        <form action="">
+                            <div class="split input-split">
+                                <div class="form-group half">
+                                    <label for="fname" class="text-light">First Name</label>
+                                    <input type="text" name="fname" class="form-control">
+                                </div>
+                                <div class="form-group half">
+                                    <label for="lname" class="text-light">Last Name</label>
+                                    <input type="text" name="lname" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="text-light">Email Address</label>
+                                <input type="email" name="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="text-light">Message</label>
+                                <textarea name="message" rows="10" cols="30" class="textarea"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <!-- <input type="button" value="Submit" class="btn btn-secondary" name="btn"> -->
+                                <button class="btn btn-secondary">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <h4 class="m-bottom">Contact Info</h4>
+                        <div class="flex fd-col">
+                            <div class="split-row m-bottom">
+                                <i class="fa-solid fa-house"></i>
+                                <p>Bypass Road Kohat City, Pakistan</p>
+                            </div>
+                            <div class="split-row m-bottom">
+                                <i class="fa-solid fa-phone text-secondary"></i>
+                                <a href="tel:+923340507198" class="text-dec-none">
+                                    <p class="text-secondary">+92 334 0507198</p>
+                                </a>
+                            </div>
+                            <div class="split-row m-bottom">
+                                <i class="fa-solid fa-envelope text-secondary"></i>
+                                <a href="mailto:muhammadatif974.edu.pk@gmail.com" class="text-dec-none">
+                                    <p class="text-secondary">muhammadatif974.edu.pk@gmail.com</p>
+                                </a>
+                            </div>
+                            <div class="split-row m-bottom">
+                                <i class="fa-solid fa-globe text-secondary"></i>
+                                <a href="www.google.com" class="text-dec-none">
+                                    <p class="text-secondary">https://muhammadatif.com</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer  -->
+        <footer class="footer">
+            <div class="container">
+                <div class="split">
+                    <div class="col">
+                        <p>Copyright &copy; 2022 All rights reserved</p>
+                    </div>
+                    <div class="col">
+                        <p>muhammadatif974.edu.pk@gmail.com</p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- lottiflies link  -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- === GSAP Script === -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+   <!-- === Scroll Trigger === -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+   <script src="script/animations.js"></script>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
